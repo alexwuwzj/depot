@@ -8,7 +8,7 @@ class StoreController < ApplicationController
   def add_to_cart
     @cart=find_cart
     product=Product.find(params[:id])
-    @cart.add_product(product)
+    @current_item = @cart.add_product(product)
       #redirect_to_index
       respond_to do |format|
         format.js
@@ -21,7 +21,7 @@ class StoreController < ApplicationController
 
   def empty_cart
     session[:cart]=nil
-    redirect_to_index("Your cart is currently empty")
+    redirect_to_index
   end
 
   private
