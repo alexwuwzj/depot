@@ -9,9 +9,9 @@ class StoreController < ApplicationController
     @cart=find_cart
     product=Product.find(params[:id])
     @current_item = @cart.add_product(product)
-      #redirect_to_index
       respond_to do |format|
-        format.js
+        format.js if request.xhr?
+        format.html { redirect_to_index }
       end
 
     rescue ActiveRecord::RecordNotFound
