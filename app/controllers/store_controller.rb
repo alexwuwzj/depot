@@ -1,4 +1,5 @@
 class StoreController < ApplicationController
+
   def index
     @cart=find_cart
     @product =Product.find_products_for_sale
@@ -22,6 +23,30 @@ class StoreController < ApplicationController
   def empty_cart
     session[:cart]=nil
     redirect_to_index
+  end
+
+  def check_out
+    @cart = find_cart
+    if @cart.items.empty?
+      redirect_to_index("Your Cart is empty")
+    end
+    @order = Order.new
+  end
+
+  def save_order
+    @cart = find_cart
+    @order = Order.new(params[:order])
+    @order.add_line_items_from_cart(@cart)
+    if @order.save
+      session[:cart] = nil
+      redirect_to_index("Thank you for your order")
+    else
+      render :action => :check_out
+    end
+  end
+
+  protected
+  def authorize
   end
 
   private

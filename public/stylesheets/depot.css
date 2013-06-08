@@ -102,48 +102,43 @@ h1 {
   display: inline;
 }
 
+/* START:form */
+/* Styles for order form */
 
-/* The error box */
-
-.fieldWithErrors {
-  padding: 2px;
-  background-color: #EEFFEE;
-  display: inline;
+.depot-form fieldset {
+    background: #efe;
 }
 
-.fieldWithErrors * {
-  background-color: red;
+.depot-form legend {
+    color: #dfd;
+    background: #141;
+    font-family: sans-serif;
+    padding: 0.2em 1em;
 }
 
-#errorExplanation {
-  width: 400px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 12px;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
+.depot-form label {
+    width: 5em;
+    float: left;
+    text-align: right;
+    padding-top: 0.2em;
+    margin-right: 0.1em;
+    display: block;
 }
 
-#errorExplanation h2 {
-  text-align: left;
-  font-weight: bold;
-  padding: 5px 5px 5px 15px;
-  font-size: 12px;
-  margin: -7px;
-  background-color: #c00;
-  color: #fff;
+.depot-form select, .depot-form textarea, .depot-form input {
+    margin-left: 0.5em;
 }
 
-#errorExplanation p {
-  color: #333;
-  margin-bottom: 0;
-  padding: 5px;
+.depot-form .submit {
+    margin-left: 4em;
 }
 
-#errorExplanation ul li {
-  font-size: 12px;
-  list-style: square;
+.depot-form div {
+    margin: 0.5em 0;
 }
+/* END:form */
+
+
 
 /* START:mainlayout */
 /* Styles for main page */
@@ -229,5 +224,47 @@ h1 {
     margin-bottom: 10px;
 }
 /* END:cartside */
+
+/* The error box */
+
+.fieldWithErrors {
+    padding: 2px;
+    background-color: #EEFFEE;
+    display: inline;
+}
+
+.fieldWithErrors * {
+    background-color: red;
+}
+
+#errorExplanation {
+    width: 400px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    background-color: #c00;
+    color: #fff;
+}
+
+#errorExplanation p {
+    color: #333;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+#errorExplanation ul li {
+    font-size: 12px;
+    list-style: square;
+}
 
 
