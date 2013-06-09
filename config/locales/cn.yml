@@ -30,6 +30,7 @@ cn:
         inclusion: "校验出错"
         blank:     "不能为空"
 
+
   layout:
     title: "书店"
     side:
