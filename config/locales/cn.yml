@@ -56,4 +56,4 @@ cn:
     pay_prompt:  "请选择一种支付方式"
     submit:      "支付"
   flash:
-    thanks: "感谢您的下订-测试"
+    thanks: "感谢您的下订"
