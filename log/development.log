@@ -6035,3 +6035,574 @@ Rendered store/_cart_item (2.6ms)
 Rendered store/_cart_item (0.4ms)
 Rendered store/_cart (4.4ms)
 Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/store/check_out]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-06-08 15:11:34) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+
+
+ActionController::RoutingError (No route matches "/info/who_bought/2" with {:method=>:get}):
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+Rendering /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-06-08 15:13:12) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+
+
+ActionController::RoutingError (No route matches "/info/who_bought" with {:method=>:get}):
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+Rendering /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-06-08 15:13:47) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+
+
+ActionController::RoutingError (No route matches "/info/who_bought/2" with {:method=>:get}):
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+Rendering /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-06-08 15:16:24) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+
+
+ActionController::RoutingError (No route matches "/info/who_bought/2" with {:method=>:get}):
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+Rendering /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-06-08 15:16:28) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+
+
+ActionController::RoutingError (No route matches "/info/who_bought/2" with {:method=>:get}):
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+Rendering /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-06-08 15:16:37) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+
+
+ActionController::RoutingError (No route matches "/info" with {:method=>:get}):
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+Rendering /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2013-06-08 15:16:51) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (2.1ms)
+Rendered store/_cart_item (0.5ms)
+Rendered store/_cart (7.9ms)
+Completed in 68ms (View: 67, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2013-06-08 15:16:56) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/store
+Rendering products/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2013-06-08 15:17:02) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "orders" [0m
+Rendering template within layouts/store
+Rendering admin/index
+Completed in 11ms (View: 4, DB: 1) | 200 OK [http://localhost/admin]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-06-08 15:17:10) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+
+
+ActionController::RoutingError (No route matches "/info" with {:method=>:get}):
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+Rendering /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing InfoController#index (for 127.0.0.1 at 2013-06-08 15:18:40) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+
+
+ActionController::UnknownAction (No action responded to index. Actions: who_bought):
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+Rendering /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:18:49) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=2):
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-2.2.2/lib/active_record/base.rb:1528:in `find_one'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-2.2.2/lib/active_record/base.rb:1511:in `find_from_ids'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-2.2.2/lib/active_record/base.rb:590:in `find'
+    /app/controllers/info_controller.rb:4:in `who_bought'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/alex/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+Rendered /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (22.3ms)
+Rendered /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (5.4ms)
+Rendering /Users/alex/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:19:10) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.2ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:19:26) [GET]
+  Session ID: 67b9ab66ab3a58bd97358cd8717fdc90
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.2ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:30:54) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.2ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:30:54) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.3ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 51ms (View: 46, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:30:55) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.2ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:30:59) [GET]
+  Session ID: 67b9ab66ab3a58bd97358cd8717fdc90
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.2ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 14ms (View: 6, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:30:59) [GET]
+  Session ID: 67b9ab66ab3a58bd97358cd8717fdc90
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.2ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 54ms (View: 5, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:31:00) [GET]
+  Session ID: 67b9ab66ab3a58bd97358cd8717fdc90
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.3ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:39:06) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering template within layouts/store
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.2ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:39:13) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering template within layouts/store
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.3ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 12ms (View: 8, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:39:26) [GET]
+  Session ID: ff825ae655960fbc19bee7f01fb1f746
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering template within layouts/store
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.2ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:42:03) [GET]
+  Session ID: 7aa99beaf87314dd89eb3b2073ff8839
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering info/who_bought
+  [4;36;1mOrder Load (0.2ms)[0m   [0;1mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 47ms (View: 41, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:42:18) [GET]
+  Session ID: 48ddec0cd1e08e75ef820245b0ef1405
+  Parameters: {"id"=>"5"}
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Completed in 6ms (View: 0, DB: 0) | 406 Not Acceptable [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought (for 127.0.0.1 at 2013-06-08 15:42:40) [GET]
+  Session ID: 776fe72f28a99bf133c178ff62af9c36
+  Parameters: {"id"=>"5"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering template within layouts/store
+Rendering info/who_bought
+  [4;35;1mOrder Load (0.2ms)[0m   [0mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://localhost/info/who_bought/5]
+
+
+Processing InfoController#who_bought to xml (for 127.0.0.1 at 2013-06-08 15:44:49) [GET]
+  Session ID: fa1fb801626f210f378aa780aa65b6ba
+  Parameters: {"id"=>"5"}
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 5) [0m
+Rendering info/who_bought
+  [4;35;1mOrder Load (0.2ms)[0m   [0mSELECT "orders".* FROM "orders" INNER JOIN line_items ON orders.id = line_items.order_id WHERE (("line_items".product_id = 5)) [0m
+Completed in 47ms (View: 42, DB: 1) | 200 OK [http://localhost/info/who_bought/5.xml]

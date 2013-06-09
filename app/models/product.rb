@@ -8,6 +8,7 @@ class Product < ActiveRecord::Base
 		:message =>'must be a URL for GIF,JPG or PNG imag.(gif|jpg|url)'
 
   has_many :line_items
+  has_many :orders, :through => :line_items
 
   def self.find_products_for_sale
     find(:all,:order => "title")
