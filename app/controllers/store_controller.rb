@@ -33,11 +33,12 @@ class StoreController < ApplicationController
   end
 
   def save_order
+    @cart = find_cart
     @order = Order.new(params[:order])
     @order.add_line_items_from_cart(@cart)
     if @order.save
       session[:cart] = nil
-      redirect_to_index("Thank you for your order")
+      redirect_to_index(I18n.t('flash.thanks'))
     else
       render :action => :check_out
     end

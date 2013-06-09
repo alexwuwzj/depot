@@ -1,4 +1,4 @@
-<div class="cart-title">Your Cart</div>
+<div class="cart-title"><%= I18n.t 'layout.cart.title' %></div>
 <table>
 
   <%= render(:partial => 'cart_item', :collection => cart.items)   %>
@@ -9,5 +9,5 @@
   </tr>
 </table>
 
-<%= button_to 'Check Out', :action => 'check_out' %>
-<%= button_to 'Empty Cart', :action => 'empty_cart' %>
+<%= button_to I18n.t('layout.cart.button.checkout'), :action => 'check_out' %>
+<%= button_to I18n.t('layout.cart.button.empty'), :action => 'empty_cart' %>

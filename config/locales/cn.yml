@@ -1,0 +1,58 @@
+cn:
+  number:
+    currency:
+      format:
+        unit: "美元"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format: "%u%n"
+
+  activerecord:
+  #END:errors
+    models:
+      order: "订单"
+    attributes:
+      order:
+        address: "地址"
+        name: "姓名"
+        email: "邮箱"
+        pay_type: "支付方式"
+  #END:model
+  #START:errors
+    errors:
+      template:
+        body: "提交订单出现以下问题:"
+        header:
+          one:   "出现1个错误"
+          other: "出现{{count}}个错误"
+      messages:
+        inclusion: "校验出错"
+        blank:     "不能为空"
+
+  layout:
+    title: "书店"
+    side:
+      home: "首页"
+      questions: "问题"
+      news: "新闻"
+      contact: "联系我们"
+    cart:
+      title: "购物车"
+      button:
+        empty: "清空购物车"
+        checkout: "结算"
+  main:
+    title: "产品分类"
+    button:
+      add: "加入购物车"
+  checkout:
+    legend:      "请填写订单明细"
+    name:        "姓名"
+    address:     "地址"
+    email:       "邮箱"
+    pay_type:    "支付方式"
+    pay_prompt:  "请选择一种支付方式"
+    submit:      "支付"
+  flash:
+    thanks: "感谢您的下订"

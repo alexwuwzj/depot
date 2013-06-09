@@ -1,4 +1,4 @@
-<h1>product catalog</h1>
+<h1><%= I18n.t 'main.title' %></h1>
 
 <% for product in @product -%>
 
@@ -13,7 +13,7 @@
         </span>
 
         <% form_remote_tag :url => { :action => 'add_to_cart', :id => product } do %>
-            <%= submit_tag "add to cart" %>
+            <%= submit_tag I18n.t('main.button.add') %>
         <% end %>
 
       </div>
