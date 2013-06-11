@@ -1,11 +1,15 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-one:
-  title: MyString
-  description: MyText
-  image_url: MyString
+rubybook:
+  id: 1
+  title: Programming Ruby
+  Description: Dummy description
+  price: 1234
+  image_url: ruby.png
 
-two:
-  title: MyString
-  description: MyText
-  image_url: MyString
+railsbook:
+  id: 2
+  title: Rails Progamming
+  Description: Dummy desc
+  price: 21
+  image_url: rail.png
